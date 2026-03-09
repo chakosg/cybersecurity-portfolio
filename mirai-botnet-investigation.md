@@ -23,6 +23,7 @@ Threat intelligence sources used during investigation included:
 ## SIEM Dashboard
 
 The following dashboard was used to monitor Suricata alerts and identify anomalous network activity patterns.
+Sensitive information (ClientID, DestinationIP) have been redacted to secure anonimity.
 
 ![SIEM Dashboard](images/siem-dashboard-suricata-alerts.png)
 

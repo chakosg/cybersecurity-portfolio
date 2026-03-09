@@ -20,6 +20,12 @@ Threat intelligence sources used during investigation included:
 - AbuseIPDB
 - Cisco Talos Intelligence
 
+## SIEM Dashboard
+
+The following dashboard was used to monitor Suricata alerts and identify anomalous network activity patterns.
+
+![SIEM Dashboard](siem-dashboard.png)
+
 ## Detection
 
 While reviewing Suricata alerts within the Kibana dashboard, several IDS signatures were triggered:

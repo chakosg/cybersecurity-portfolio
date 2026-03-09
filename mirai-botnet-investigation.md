@@ -24,7 +24,7 @@ Threat intelligence sources used during investigation included:
 
 The following dashboard was used to monitor Suricata alerts and identify anomalous network activity patterns.
 
-![SIEM Dashboard](images/siem-dashboard.png)
+![SIEM Dashboard](images/siem-dashboard-suricata-alerts.png)
 
 ## Detection
 

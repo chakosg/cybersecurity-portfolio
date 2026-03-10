@@ -63,6 +63,14 @@ Investigation of the source IP revealed:
 
 These indicators suggested that the source host was likely part of a botnet conducting automated reconnaissance.
 
+## Threat Intelligence Validation
+
+The source IP address was investigated using several threat intelligence platforms to determine whether it had previously been associated with malicious activity.
+
+These platforms reported multiple abuse reports and indicators of automated scanning behavior consistent with botnet activity.
+
+![Threat Intelligence Lookup](images/example-abuse-reports.png)
+
 ## Analysis
 
 Mirai botnets commonly target vulnerable IoT devices such as:

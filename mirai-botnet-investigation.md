@@ -43,7 +43,7 @@ The investigation began after several Suricata intrusion detection alerts were o
 
 The alert signatures indicated possible Mirai botnet scanning activity targeting DVR devices.
 
-![Suricata Alert Example](images/example_suricata_alerts.png)
+![Suricata Alert Example](images/example-suricata-alerts.png)
 
 ## Investigation Process
 

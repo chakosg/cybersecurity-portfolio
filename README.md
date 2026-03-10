@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio – Gabriel Chakos
 
-This repository contains examples of security monitoring and threat investigations performed while working in a live network monitoring environment through the PISCES cybersecurity program.
+This repository contains documented security investigations conducted while monitoring live network telemetry through the PISCES cybersecurity program.
 
 The investigations demonstrate experience with:
 
@@ -21,6 +21,21 @@ Tools used include:
 
 ## Investigations
 
-1. Mirai Botnet Activity Investigation
-2. TP-Link Router Exploit Attempt (CVE-2023-1389)
-3. Network Reconnaissance and Scanning Activity
+### Mirai Botnet Scanning Activity
+Investigation of intrusion detection alerts associated with automated botnet scanning activity targeting vulnerable IoT devices.
+
+[View Investigation](mirai-botnet-investigation.md)
+
+---
+
+### TP-Link Router Exploit Attempt (CVE-2023-1389)
+Investigation of alerts associated with exploitation attempts targeting a known vulnerability affecting TP-Link routers.
+
+[View Investigation](tplink-router-exploit-investigation.md)
+
+---
+
+### Network Reconnaissance and Scanning Activity
+Investigation of network scanning activity identified through anomalous traffic patterns and intrusion detection alerts.
+
+(Investigation documentation coming soon)

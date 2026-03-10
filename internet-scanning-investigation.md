@@ -32,9 +32,13 @@ While reviewing Suricata alerts within the Kibana dashboard, the following IDS s
 - ET INFO Spring Boot Actuator Health Check Request
 - ET SCAN Zmap User-Agent (Inbound)
 
-These alerts suggested that an automated scanner was attempting to interact with exposed application endpoints.
+The alerts suggested automated scanning behavior targeting exposed services.
 
-The Zmap user-agent signature is commonly associated with internet-wide scanning tools used to enumerate services across large numbers of systems.
+### Investigation Ticket
+
+The activity was documented and escalated through the monitoring ticketing system.
+
+![Incident Ticket](images/example-stretchoid.png)
 
 ## Investigation Process
 

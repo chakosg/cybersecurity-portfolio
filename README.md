@@ -8,18 +8,25 @@ The investigations demonstrate practical Security Operations Center (SOC) analys
 
 ## Table of Contents
 
+* [About This Portfolio](#about-this-portfolio)
 * [Tools and Technologies](#tools-and-technologies)
 * [Skills Demonstrated](#skills-demonstrated)
 * [Investigations](#investigations)
 * [Example Detection Logic](#example-detection-logic)
 
+## About This Portfolio
+
+These investigations were conducted while monitoring real network telemetry through the PISCES cybersecurity monitoring program.
+
+During this monitoring period, suspicious network activity was investigated using intrusion detection alerts, SIEM dashboards, and external threat intelligence resources. Each investigation documents the methodology used to analyze alerts, validate indicators of compromise, and determine whether activity warranted escalation.
+
+This repository demonstrates practical SOC analyst skills including event investigation, threat intelligence correlation, and security incident reporting.
 
 ---
 
 ## Tools and Technologies
 
 The following platforms and tools were used during monitoring and investigation:
-## Tools and Technologies
 
 ![Elastic Stack](https://img.shields.io/badge/Elastic-Stack-005571?logo=elastic&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-Data%20Visualization-E8478B?logo=kibana&logoColor=white)

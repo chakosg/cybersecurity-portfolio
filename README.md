@@ -9,7 +9,7 @@ The investigations demonstrate practical Security Operations Center (SOC) analys
 ## Table of Contents
 
 * [Tools and Technologies](#tools-and-technologies)
-* [Skills Demonstrated](skills-demonstrated)
+* [Skills Demonstrated](#skills-demonstrated)
 * [Investigations](#investigations)
 * [Example Detection Logic](#example-detection-logic)
 * [Skills Demonstrated](#skills-demonstrated)

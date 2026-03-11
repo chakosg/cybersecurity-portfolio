@@ -18,15 +18,25 @@ The investigations demonstrate practical Security Operations Center (SOC) analys
 ## Tools and Technologies
 
 The following platforms and tools were used during monitoring and investigation:
+## Tools and Technologies
 
-* Elastic Stack (SIEM)
-* Kibana Dashboards
-* Suricata Intrusion Detection System
-* VirusTotal Threat Intelligence
-* GreyNoise Internet Scanning Intelligence
-* AbuseIPDB IP Reputation Analysis
-
+![Elastic Stack](https://img.shields.io/badge/Elastic-Stack-005571?logo=elastic&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-Data%20Visualization-E8478B?logo=kibana&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-IDS-EF3B2D)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat%20Intelligence-394EFF)
+![GreyNoise](https://img.shields.io/badge/GreyNoise-Internet%20Scanning%20Intel-4B0082)
+![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-IP%20Reputation-2C7BE5)
 ---
+
+## Skills Demonstrated
+![SIEM Monitoring](https://img.shields.io/badge/SIEM-Monitoring-blue)
+![Threat Detection](https://img.shields.io/badge/Threat-Detection-red)
+![Intrusion Detection](https://img.shields.io/badge/Intrusion-Detection-orange)
+![Threat Intelligence](https://img.shields.io/badge/Threat-Intelligence-purple)
+![Incident Analysis](https://img.shields.io/badge/Incident-Analysis-green)
+![Network Traffic Analysis](https://img.shields.io/badge/Network-Traffic%20Analysis-blueviolet)
+![Security Monitoring](https://img.shields.io/badge/Security-Monitoring-darkgreen)
+![Incident Documentation](https://img.shields.io/badge/Incident-Documentation-lightgrey)
 
 ## Investigations
 

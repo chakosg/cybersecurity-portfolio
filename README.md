@@ -30,6 +30,7 @@ The following platforms and tools were used during monitoring and investigation:
 ---
 
 ## Skills Demonstrated
+
 ![SIEM Monitoring](https://img.shields.io/badge/SIEM-Monitoring-blue)
 ![Threat Detection](https://img.shields.io/badge/Threat-Detection-red)
 ![Intrusion Detection](https://img.shields.io/badge/Intrusion-Detection-orange)

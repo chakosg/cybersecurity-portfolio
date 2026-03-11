@@ -12,7 +12,7 @@ The investigations demonstrate practical Security Operations Center (SOC) analys
 * [Skills Demonstrated](#skills-demonstrated)
 * [Investigations](#investigations)
 * [Example Detection Logic](#example-detection-logic)
-* [Skills Demonstrated](#skills-demonstrated)
+
 
 ---
 

@@ -38,6 +38,7 @@ The following platforms and tools were used during monitoring and investigation:
 ![Network Traffic Analysis](https://img.shields.io/badge/Network-Traffic%20Analysis-blueviolet)
 ![Security Monitoring](https://img.shields.io/badge/Security-Monitoring-darkgreen)
 ![Incident Documentation](https://img.shields.io/badge/Incident-Documentation-lightgrey)
+
 ---
 
 ## Investigations

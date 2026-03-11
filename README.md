@@ -29,10 +29,10 @@ The following platforms and tools were used during monitoring and investigation:
 ![Elastic Stack](https://img.shields.io/badge/Elastic-Stack-005571?logo=elastic&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-Data%20Visualization-E8478B?logo=kibana&logoColor=white)
 ![Suricata](https://img.shields.io/badge/Suricata-IDS-EF3B2D)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat%20Intelligence-394EFF)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat%20Intelligence-394EFF?logo=virustotal&logoColor=white)
 ![GreyNoise](https://img.shields.io/badge/GreyNoise-Internet%20Scanning%20Intel-4B0082)
 ![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-IP%20Reputation-2C7BE5)
-![NIST](https://img.shields.io/badge/NIST-CVE%20Database-FF4BC6)
+![NIST](https://img.shields.io/badge/NIST-CVE%20Database-FFFBE5)
 
 ---
 

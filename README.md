@@ -32,6 +32,8 @@ The following platforms and tools were used during monitoring and investigation:
 ![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat%20Intelligence-394EFF)
 ![GreyNoise](https://img.shields.io/badge/GreyNoise-Internet%20Scanning%20Intel-4B0082)
 ![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-IP%20Reputation-2C7BE5)
+![NIST](https://img.shields.io/badge/NIST-IP%20Reputation-2C7BE5)
+
 ---
 
 ## Skills Demonstrated

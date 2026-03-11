@@ -59,6 +59,8 @@ Key investigation steps included:
 * Analyzing alert patterns within the SIEM dashboard
 * Correlating source IP reputation using threat intelligence platforms
 * Determining the activity was consistent with automated botnet reconnaissance
+  
+[View Investigation](mirai-botnet-investigation.md)
 
 ---
 
@@ -73,6 +75,8 @@ Key investigation steps included:
 * Analyzing traffic behavior and alert patterns within the SIEM
 * Determining the activity was consistent with known exploitation attempts targeting vulnerable routers
 
+[View Investigation](tplink-router-exploit-investigation.md)
+
 ---
 
 ### Internet-Wide Scanning Activity (ZMap / Stretchoid)
@@ -85,6 +89,8 @@ Key investigation steps included:
 * Investigating source IP behavior using GreyNoise intelligence data
 * Identifying scanning patterns consistent with internet-wide research scanning
 * Determining the activity was likely related to large-scale scanning infrastructure such as ZMap or Stretchoid scanning projects
+
+[View Investigation](internet-scanning-investigation.md)
 
 ---
 

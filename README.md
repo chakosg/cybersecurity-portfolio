@@ -2,8 +2,6 @@
 
 This repository contains documented cybersecurity investigations conducted while monitoring live network telemetry within a SIEM environment through the PISCES cybersecurity program.
 
-The investigations demonstrate practical Security Operations Center (SOC) analyst skills including intrusion detection monitoring, threat intelligence research, and security event investigation.
-
 ---
 
 ## Table of Contents

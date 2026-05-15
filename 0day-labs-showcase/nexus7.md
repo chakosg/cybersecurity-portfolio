@@ -57,7 +57,7 @@ RECOMMENDED: A 30-second screen recording showing:
 2. The logs populating the screen.
 3. Highlighting a specific anomalous entry.
 -->
-![Investigative Workflow](images/nexus7-workflow.gif)
+![Investigative Workflow](../images/nexus7-workflow.gif)
 
 ### [Screenshot: The Instructional Layer]
 <!-- 

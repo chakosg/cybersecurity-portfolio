@@ -64,7 +64,8 @@ RECOMMENDED: A 30-second screen recording showing:
 RECOMMENDED: A screenshot of a "Debrief Card" or the "NEXUS-AI" guidance. 
 This proves the platform teaches the "Why" behind the investigation.
 -->
-![Educational Debrief](images/debrief.png)
+![Educational Debrief](../images/debrief.png)
+
 
 ---
 

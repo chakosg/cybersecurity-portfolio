@@ -1,6 +1,6 @@
 # Cybersecurity Investigation Portfolio – Gabriel Chakos
 
-This repository contains documented cybersecurity investigations conducted while monitoring live network telemetry within a SIEM environment through the PISCES cybersecurity program.
+This repository contains documented cybersecurity investigations conducted while monitoring live network telemetry within a SIEM environment through the PISCES cybersecurity program, as well as architectural breakdowns of self-engineered threat simulation modules developed for the **0Day Labs** platform.
 
 ---
 
@@ -9,22 +9,25 @@ This repository contains documented cybersecurity investigations conducted while
 * [About This Portfolio](#about-this-portfolio)
 * [Tools and Technologies](#tools-and-technologies)
 * [Skills Demonstrated](#skills-demonstrated)
+* [Threat Simulation Modules (0Day Labs)](#threat-simulation-modules-0day-labs)
 * [Investigations](#investigations)
 * [Example Detection Logic](#example-detection-logic)
 
 ## About This Portfolio
 
-These investigations were conducted while monitoring real network telemetry through the PISCES cybersecurity monitoring program.
+These investigations were conducted while monitoring real network telemetry through the PISCES International cybersecurity monitoring program.
 
 During this monitoring period, suspicious network activity was investigated using intrusion detection alerts, SIEM dashboards, and external threat intelligence resources. Each investigation documents the methodology used to analyze alerts, validate indicators of compromise, and determine whether activity warranted escalation.
 
-This repository demonstrates practical SOC analyst skills including event investigation, threat intelligence correlation, and security incident reporting.
+Additionally, this portfolio highlights my work on **0Day Labs**, a gamified, narrative-driven cybersecurity training platform. Operatives receive synthetic log data, query it using a custom query language called SIEQL, and progress by finding exact values buried in noise with zero multiple-choice guardrails.
+
+This repository demonstrates practical SOC analyst skills including event investigation, threat intelligence correlation, security engineering, and incident reporting.
 
 ---
 
 ## Tools and Technologies
 
-The following platforms and tools were used during monitoring and investigation:
+The following platforms and tools were used during monitoring, investigation, and platform development:
 
 ![Elastic Stack](https://img.shields.io/badge/Elastic-Stack-005571?logo=elastic&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-Data%20Visualization-E8478B?logo=kibana&logoColor=white)
@@ -33,6 +36,8 @@ The following platforms and tools were used during monitoring and investigation:
 ![GreyNoise](https://img.shields.io/badge/GreyNoise-Internet%20Scanning%20Intel-4B0082?logo=greynoise&logoColor=white)
 ![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-IP%20Reputation-2C7BE5?logo=abuseipd&logoColor=white)
 ![NIST](https://img.shields.io/badge/NIST-CVE%20Database-FFF005?logo=nist&logoColor=white)
+![React](https://img.shields.io/badge/React-UI%20Framework-61DAFB?logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend%20API-009688?logo=fastapi&logoColor=white)
 
 ---
 
@@ -49,6 +54,32 @@ The following platforms and tools were used during monitoring and investigation:
 
 ---
 
+## Threat Simulation Modules (0Day Labs)
+
+Design case studies for modules built for the 0Day Labs training environment, featuring dynamic synthetic datasets and real-world intelligence integration.
+
+### 🛸 Nexus-7: Alien Probe Infiltration
+A multi-source correlation simulation forcing users to move beyond single-log streams to discover complex network anomalies using data join logic.
+  
+[View Design Case Study](0day-labs-showcase/nexus7.md)
+
+### 🎣 Phish & Ships: Maritime Supply Chain Attack
+A rookie-level investigation simulation requiring a hybrid workflow that bridges internal SIEM triage with live internet OSINT tooling (VirusTotal, AbuseIPDB, Shodan).
+
+[View Design Case Study](0day-labs-showcase/phish-and-ships.md)
+
+### 📡 Lost in Translation: Obfuscated C2 & Ransomware Triage
+A specialized incident response simulation tracking active host-encryption events and obfuscated protocols.
+
+[View Placeholder](0day-labs-showcase/lost-in-translation.md)
+
+### 🏢 Inside Man: Insider Threat Detection
+A behavioral analysis simulation mapping anomalous administrative sessions and privilege escalation.
+
+[View Placeholder](0day-labs-showcase/inside-man.md)
+
+---
+
 ## Investigations
 
 ### Mirai Botnet Scanning Activity
@@ -61,7 +92,7 @@ Key investigation steps included:
 * Analyzing alert patterns within the SIEM dashboard
 * Correlating source IP reputation using threat intelligence platforms
 * Determining the activity was consistent with automated botnet reconnaissance
-  
+  
 [View Investigation](mirai-botnet-investigation.md)
 
 ---
@@ -103,34 +134,3 @@ Below are examples of detection logic concepts related to events investigated wi
 ### Mirai Botnet Scanning Detection (Suricata IDS)
 
 Example IDS signature associated with Mirai-style Telnet scanning:
-
-```
-alert tcp any any -> any 23 (msg:"Possible Mirai Telnet Scan"; flags:S; threshold:type threshold, track by_src, count 20, seconds 60; sid:1000001;)
-```
-
-This type of detection rule helps identify high volumes of Telnet connection attempts commonly associated with Mirai botnet propagation.
-
----
-
-### Network Reconnaissance Detection
-
-Reconnaissance scanning activity can often be detected by identifying abnormal connection attempts across multiple ports or hosts within a short time window.
-
-Typical indicators include:
-
-* Multiple connection attempts from a single source IP
-* Sequential or wide-range port targeting
-* High connection rates within a short time interval
-
-These behaviors are commonly associated with automated scanning tools used for internet-wide reconnaissance.
-
----
-
-### Exploit Attempt Detection (CVE-2023-1389)
-
-Intrusion detection systems may use signatures or detection logic to identify exploit attempts targeting known vulnerabilities.
-
-Indicators may include:
-
-* HTTP requests containing suspicious command injection patterns
-* Requests targeting known vulnerable router e

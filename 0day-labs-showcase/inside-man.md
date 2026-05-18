@@ -72,14 +72,14 @@ showing the 7z.exe → robocopy.exe process chain sorted by timestamp.
 
 ---
 
-## MITRE ATT&CK® Mapping
+## Technique Mapping
 This simulation provides hands-on practice with the following techniques:
 
 *   **Exfiltration Over Web Service (T1567):** Identifying unauthorized volume spikes directed at external web servers.
 *   **System Information Discovery (T1082):** Leveraging hardware registration signatures to profile rogue assets.
 *   **Archive Collected Data (T1560):** Tracing local endpoint process trees to isolate automated file compression and staging commands.
 *   **Credentials in Files (T1552.001):** Extracting cleartext security metrics and passwords from unstructured application notes.
-*   **Indicator Removal (T1070):** Detecting localized event log destruction commands using platform utilities (`wevtutil`).
+*   **Indicator Removal (T1070):** Detecting localized event log destruction commands using platform utilities.
 *   **Protocol Tunneling (T1572):** Isolating persistent, long-duration encrypted network connections hiding within standard administrative traffic.
 
 ---
